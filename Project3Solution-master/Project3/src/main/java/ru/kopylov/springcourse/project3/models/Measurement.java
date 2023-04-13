@@ -17,7 +17,7 @@ public class Measurement {
     @Column(name = "value")
     @NotNull
     @Min(-100)
-    @Max(140)
+    @Max(100)
     private Double value;
 
     @Column(name = "raining")
